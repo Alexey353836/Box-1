@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<title>Sportnova Gulp</title>
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+	<div class="wrapper">
+<!--Menu -->
+<div class="menu">
+  <div class="container menu__container">
+    <ul class="menu__bar">
+        <li> <svg><use xlink:href="#burger"></use></svg></li>
+        <!-- <li><svg class=""><use xlink:href="#chevron-up"></use></svg></li>  -->
+        <li><a href="#html">Каталог товаров</a></li>
+        <li> <svg><use xlink:href="#check"></use></svg></li>
+        <!-- <li> <svg class=""><use xlink:href="#chevron-up"></use></svg> </li> -->   
+    </ul> 
+    <nav class="menu_navigation">
+        <ul class="menu__items">
+            <li><a href="#html">Шведские стенки</a></li>
+            <li><a href="#html">Уличные комплексы</a></li>
+            <li><a href="#html">Турники</a></li>
+            <li><a href="#html">Тяжелая атлетика</a></li>
+        </ul>  
+    </nav>
+    <ul class="menu__promotion">
+        <li><svg ><use xlink:href="#percent"></use></svg></li>
+        <li><a href="#html"h>Товары со скидкой</a></li>
+    </ul>  
+  </div>
+</div>
+   <!-- hero -->
+<div class="hero">
+    <div class="container hero__container">
+        <div class="hero__box-1">
+          <div class="hero__box-1-beckground"></div>
+          <div class="hero__box-1-content">
+            <h1 class="hero__title">
+                Соберите шведскую стенку по своему желанию!
+            </h1>
+            <p class="hero__subtitle hero__subtitle_1">
+                Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.
+            </p>
+            <p class="hero__subtitle hero__subtitle_2">
+                Удобный конструктор для создания стенки по вашим желаниям!
+            </p>
+            <div class="hero__button">
+                <button class="btn">Перейти в конструктор</button>
+            </div>
+            <!-- slider buttons -->
+            <div class="offer-slider-counter hero__offer-slider-counter">
+                <div  class="offer-slider-prev hero__offer-slider-prev">
+                    <svg class="hero__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.<path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                </div>
+                <div class="box-numbers">
+                    <span id="current" class="current hero__current">03</span>
+                    <span class="slash hero__slash">/</span>
+                    <span id="total" class="total hero__total">04</span>
+                </div>
+                <div class="offer-slider-next hero__offer-slider-next">
+                    <svg  class="hero__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>   
+                </div>
+            </div>
+          </div>  
+          <!-- slider -->
+          <div class="offer-slider hero__offer-slider">
+            <div class="offer-slider-wrapper">
+              <div id="slide-1"  class="offer-slide">
+                  <img src="./images/dist/pictures/slider-1.jpg" class="offer-slide-img hero__offer-slide-img" alt="pepper">
+              </div>
+              <div id="slide-2"  class="offer-slide">
+                  <img src="./images/dist/pictures/slider-1.jpg" class="offer-slide-img hero__offer-slide-img" alt="food">
+              </div>
+              <div id="slide-3"  class="offer-slide">
+                  <img src="./images/dist/pictures/slider-1.jpg" class="offer-slide-img hero__offer-slide-img" alt="oil">
+              </div>
+              <div id="slide-4"  class="offer-slide">
+                  <img src="./images/dist/pictures/slider-1.jpg" class="offer-slide-img hero__offer-slide-img" alt="paprika">
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="hero__box-2">
+            <div class="hero__box-2-card">
+                <div class="card">
+                    <img src="./images/dist/pictures/hero-card-1.jpg" alt="">
+                    <h3 class="card__title">Собственное швейное производство</h3>
+                    <p class="card__subtitle">Приглашаем <br> к сотрудничеству</p>
+                    <a href="#html" class="card__link">
+                        <p class="card__link-text">Подробнее</p>
+                        <svg class="card__link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.<path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <img src="./images/dist/pictures/hero-card-2.jpg" alt="">
+                    <h3 class="card__title">Посетите наш шоу-рум!</h3>
+                    <p class="card__subtitle">Н.Новгород, ул.Народная 20 Ежедневно с 9:00 до 19:00</p>
+                    <a href="#html" class="card__link">
+                        <p class="card__link-text">Подробнее</p>
+                        <svg class="card__link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.<path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+   <!-- Sprites -->
+      <!-- <svg ><use xlink:href="#percent"></use></svg> -->
+      <div class="sprite">
+        <svg xmlns="http://www.w3.org/2000/svg" >
+            <symbol id="check" viewBox="0 0 448 512">  
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg><!-- <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg> -->
+            </symbol>
+            <symbol id="chevron-up" viewBox="0 0 496 512">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+            </symbol>
+            <symbol id="percent" viewBox="0 0 496 512">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M374.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-320 320c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l320-320zM128 128A64 64 0 1 0 0 128a64 64 0 1 0 128 0zM384 384a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/></svg>
+            </symbol>
+            <symbol id="burger" viewBox="0 0 448 512">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+            </symbol>
+            <symbol id="menuBar1" viewBox="0 0 448 512">
+                <path fill="#63E6BE" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+            </symbol>
+            <symbol id="chevron-right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+            </symbol>
+        </svg>
+    </div>
+</div>
+	
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
+
